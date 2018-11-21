@@ -1,87 +1,100 @@
 body {
-	background: #1e1f26;
-	margin: 0;
-	padding: 0;
+    background: #1e1f26;
+    margin: 0;
+    padding: 0;
 }
 
 header {
-	background: #ffffff;
-	margin: 0;
-	position: relative;
+    background: #ffffff;
+    margin: 0;
+    position: relative;
+}
+
+#logo {
+    position: relative;
+    top: 2px;
+    left: 5px;
 }
 
 nav {
-	position: absolute;
-	top: 0px;
-	right: 0px;
+    position: absolute;
+    top: 0px;
+    right: 0px;
 }
 
 nav ul {
-	list-style: none;
-	margin: 0;
+    list-style: none;
+    margin: 0;
 }
 
 nav li {
-	display: inline-block;
+    display: inline-block;
 }
 
 nav a {
-	font-size: 18px;
-	background: #000000;
-	color: #ffffff;
-	padding: 10px;
-	text-decoration: none;
-	text-transform: uppercase;
-	font-family: verdana;
+    font-size: 18px;
+    background: #000000;
+    color: #ffffff;
+    padding: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: verdana;
 }
 
 nav a:hover {
-	background: #eee;
-	color: #f00;
+    background: #eee;
+    color: #1B1F3B;
 }
 
 h1 {
-	font-family: Palatino;
-	font-size: 40px;
-	color: #dee9f4;
+    font-family: Palatino;
+    font-size: 40px;
+    color: #dee9f4;
 }
 
 #benny {
-	background: #000;
-	padding: 40px;
+    background: #000;
+    padding: 40px;
 }
 
-#bennycontainer{
-	width:880px;
-	margin:0 auto;
+#bennycontainer {
+    width: 880px;
+    margin: 0 auto;
 }
 
 .benefit {
-	background: #fff;
-	float: left;
-	width: 200px;
-	padding: 20px;
-	margin: 10px;
-	border-radius: 20px;
-	text-align: center;
+    background: #1B1F3B;
+    float: left;
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 20px;
+    text-align: center;
+    color: aliceblue;
 }
 
-.cta{
-	background: url(BG.jpg);
-	background-size: cover;
-	background-position:bottom right;
-	padding:80px;
-	font-family: helvetica;
+.cta {
+    background: url(BG.jpg);
+    background-size: cover;
+    background-position: bottom right;
+    padding: 80px;
+    font-family: Times Roman Numeral;
 }
 
-.cta h2{
-	color:#fff;
+.cta h2 {
+    color: #fff;
 }
 
-.cta a{
-	background:#fff;
-	color:#000;
-	text-decoration:none;
-	padding:10px;
-	font-size:25px;
+#contactbutton a:hover {
+    background: #1B1F3B;
+    color: #fff;
+}
+
+.cta a {
+    background: #fff;
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+    font-size: 25px;
+    border-radius: 15px;
 }
